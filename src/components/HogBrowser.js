@@ -8,7 +8,8 @@ export default class HogBrowser extends React.Component {
 		let allHogs = this.props.hogs.map( hog => {
 			return <Hog hog={hog}
 						onClickHog={this.props.onClickHog}
-						isClicked={this.props.clickedHogs.includes(hog.name)}/>
+						isClicked={this.props.clickedHogs.includes(hog.name)}
+						onHideHog = {this.props.onHideHog}/>
 		})
 		return (
 			<div className='ui grid container'>

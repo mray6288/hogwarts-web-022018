@@ -10,7 +10,7 @@ const Sort = (props) => {
 		<select defaultValue='all' onChange={sortChange}>
 			<option value="default">Default</option>
 			<option value="name">Name</option>
-			<option value="weight">Weight</option>
+			<option value="weight">Random Weight Thing</option>
 		</select>
 	)
 }
